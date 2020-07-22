@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-login.css' type='text/css' />
+
+<body onLoad="document.registration.userid.focus();">
+<div class="login">
+  <p>
+  <i class="fa fa-graduation-cap icn" aria-hidden="true"></i>
+  <h2 class="login-header" >Sign in</h2>
+  </p>
+  </head>
+ <form name="form1" action="#"> 
+    <p><input type="email" placeholder="mail@example.com"><i class="fa fa-envelope ic" aria-hidden="true"></i></p> 
+    <p><input type="password" placeholder="password"><i class="fa fa-unlock-alt ic" aria-hidden="true"></i></p>      
+    <p><input style="background-color: #60a5d1"type="submit" name="submit" value="SIGN IN" onclick="ValidateEmail(document.form1.text1)"/></p>
+    <p><a style="color: #555">forgot your password?</a><a style="margin-left: 133px; color: #555">Register!</a></p>
+    <p><h3 class="hrw">OR</h3></p>
+    <p><input style="background-color: #3b5998" type="submit" value="f"></p>
+    <p><input style="background-color: #de5246" type="submit" value="g"></p>
+    <br><br>
+    <p><input style="background-color: #b2b519" type="submit" value="< EPAM LOGIN>"></p>
+	<script src="email-validation.js"></script>
+  </form>
+</div>
+</body>
+</html>
